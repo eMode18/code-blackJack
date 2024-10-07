@@ -54,7 +54,7 @@ while (balance > 0) {
   const playerValue = getHandValue(playerHand);
   const dealerValue = getHandValue(dealerHand);
 
-  console.log(`Your hand: ${getStrHand(playerHand)} (Total: ${playerHand})`);
+  console.log(`Your hand: ${getStrHand(playerHand)} (Total: ${playerValue})`);
   console.log(`Dealer's hand: ${getStrHand(dealerHand, true)}`);
 
   if (playerValue === 21) {
