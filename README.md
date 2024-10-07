@@ -85,9 +85,7 @@ implement:
     unless the dealer also has a Blackjack, in which case the game ends.
   - If not a Blackjack, the player has the option to "Hit" (request additional
     cards) one at a time to try to get closer to 21. The player can hit as many
-    times as they like but will "Bust" (automatically lose) if their total exceeds
-
-21.
+    times as they like but will "Bust" (automatically lose) if their total exceeds 21.
 
 - The player can also "Stand" (not take any more cards) if they are satisfied
   with their hand's total value.
